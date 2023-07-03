@@ -1,1 +1,4 @@
-hi my name is drishya and im aobut to commit
+def cal():
+    print("cal hero ho!")
+
+cal()
