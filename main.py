@@ -1,5 +1,6 @@
 import pygame
 import math
+import random
 
 #setup display
 pygame.init()
@@ -40,7 +41,8 @@ for i in range(7):
 
 #  game variables
 hangman_status = 0
-word = "DEVELOPER"
+words = ["DRISHYA","KOPILA","RAJAN","DEEPALI"]
+word = random.choice(words)
 guessed = []
 
 # colors
